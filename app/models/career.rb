@@ -1,5 +1,5 @@
 class Career < ApplicationRecord
-    has_many:StudentCareer
-    has_many:students, through: :Student
+    has_many:studentCareer
+    has_many:students, through: :studentCareer
     
 end
